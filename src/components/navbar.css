@@ -1,0 +1,33 @@
+.navbar {
+   background-color: #777;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 25px;
+   font-weight: 700;
+}
+.logo {
+    font-size: 22px;
+    letter-spacing: 3px;
+    color: none;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.link {
+    cursor: pointer;
+    transition: .3s;
+}
+.link:hover {
+    margin-right: 12px
+}
+.link a {
+    color: #fff;
+    transition: .3s;
+}
+.link a:hover {
+    color: green;
+}
